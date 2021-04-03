@@ -1,8 +1,9 @@
 class PassVera < Formula
-  desc "Pass extension that encrypts te password-store in a VeraCrypt drive"
+  desc "Pass extension that encrypts the password-store in a VeraCrypt drive"
   homepage "https://github.com/lmburns/pass-vera"
   url "https://github.com/lmburns/pass-vera/archive/refs/tags/v1.0.tar.gz"
-  sha256 "978f50d62ac9d708ad860a24af9377c2ce7b75c3327c339c9f9c71f34fedf404"
+  version "v1.0"
+  sha256 "9d2157bbf20e30f28ba9088c4174ef4f250a35e52b4011cee2ea432b9e8e2c72"
   license "GPL-3.0"
   head "https://github.com/lmburns/pass-vera.git"
 
@@ -19,6 +20,6 @@ class PassVera < Formula
   end
 
   test do
-    ##
+    #
   end
 end
