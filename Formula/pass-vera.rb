@@ -2,7 +2,7 @@ class PassVera < Formula
   desc "Pass extension that encrypts te password-store in a VeraCrypt drive"
   homepage "https://github.com/lmburns/pass-vera"
   url "https://github.com/lmburns/pass-vera/archive/refs/tags/v1.0.tar.gz"
-  sha256 "f4812a84c6ca3520ad3b8b8a54222e605d71b3a399860afb022305d2356ddaa6"
+  sha256 "978f50d62ac9d708ad860a24af9377c2ce7b75c3327c339c9f9c71f34fedf404"
   license "GPL-3.0"
   head "https://github.com/lmburns/pass-vera.git"
 
