@@ -16,9 +16,6 @@ class PassVera < Formula
   def install
     system "make", "PREFIX=#{prefix}", "WITH_ALLCOMP=yes", "BASHCOMPDIR=#{bash_completion}",
                    "ZSHCOMPDIR=#{zsh_completion}", "install"
-    inreplace "#{bin}/pass-vera",
-              /^SYSTEM_EXTENSION_DIR=.*$/,
-              "SYSTEM_EXTENSION_DIR=\"#{HOMEBREW_PREFIX}/lib/password-store/extensions\""
   end
 
   test do
