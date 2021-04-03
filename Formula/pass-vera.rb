@@ -6,11 +6,11 @@ class PassVera < Formula
   license "GPL-3.0"
   head "https://github.com/lmburns/pass-vera.git"
 
-  depends_on "pass"
-  depends_on "veracrypt"
-  depends_on "osxfuse"
-  depends_on "coreutils"
-  depends_on "ripgrep"
+  depends_on formula: "pass"
+  depends_on formula: "coreutils"
+  depends_on formula: "ripgrep"
+  depends_on cask: "veracrypt"
+  depends_on cask: "osxfuse"
 
   def install
     system "make", "PREFIX=#{prefix}", "WITH_ALLCOMP=yes", "BASHCOMPDIR=#{bash_completion}",
