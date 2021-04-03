@@ -11,6 +11,9 @@ class PassVera < Formula
   depends_on "ripgrep"
   depends_on cask: "veracrypt"
   depends_on cask: "osxfuse"
+  depends_on "lolcat" => :optional
+  depends_on "figlet" => :optional
+  depends_on "toilet" => :optional
 
   def install
     system "make", "PREFIX=#{prefix}", "WITH_ALLCOMP=yes", "BASHCOMPDIR=#{bash_completion}",
