@@ -19,6 +19,6 @@ class PassVera < Formula
   end
 
   test do
-    # none
+    #
   end
 end
