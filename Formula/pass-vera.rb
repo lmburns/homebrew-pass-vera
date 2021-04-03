@@ -9,8 +9,8 @@ class PassVera < Formula
   depends_on "pass"
   depends_on "coreutils"
   depends_on "ripgrep"
-  depends_on :veracrypt
-  depends_on :osxfuse
+  depends_on "veracrypt"
+  depends_on "osxfuse"
   depends_on "lolcat" => :optional
   depends_on "figlet" => :optional
   depends_on "toilet" => :optional
